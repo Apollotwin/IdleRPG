@@ -1,2 +1,2 @@
-# IdleRPG
- Forsbergs IdleRPG
+# LordOfTheRings
+ IdleRPG clicker
