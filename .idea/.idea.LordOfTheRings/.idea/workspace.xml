@@ -14,9 +14,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UIGoldScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGoldOnClick.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddGold.cs" />
       </list>
     </option>
   </component>
@@ -43,6 +44,12 @@
       <workItem from="1603181880358" duration="153000" />
       <workItem from="1603182064983" duration="482000" />
       <workItem from="1603182641304" duration="351000" />
+      <workItem from="1603183102674" duration="275000" />
+      <workItem from="1603183390833" duration="25000" />
+      <workItem from="1603183814604" duration="74000" />
+      <workItem from="1603183935370" duration="428000" />
+      <workItem from="1603184384007" duration="510000" />
+      <workItem from="1603184922967" duration="895000" />
     </task>
     <servers />
   </component>
@@ -51,5 +58,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="259" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603185175786">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="491" y="259" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603185175786" />
   </component>
 </project>
