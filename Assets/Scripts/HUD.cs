@@ -1,24 +1,23 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    public Text goldAmountText;
+    public Text displayGold;
+    private int displayAmountOfGold;
 
-    private int getAmountOfGold;
-
-    public int GetAmountOfGold
+    void Start()
     {
-        get => getAmountOfGold;
-        set => getAmountOfGold = GetComponentInParent<Gold>().goldAmount;
+        displayAmountOfGold = GetComponentInParent<Gold>().goldAmount;
     }
-
 
     void Update()
     {
-        this.goldAmountText.text = $"{this.getAmountOfGold} Gold";
+        this.displayGold.text = $"{displayAmountOfGold} Gold";
     }
+
 }
