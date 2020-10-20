@@ -1,23 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Gold : MonoBehaviour
 {
-    public int goldAmount;
+    private int goldAmount;
+    public Text goldAmountText;
     private int addFiveGold = 5;
 
     void Update()
     {
-          AddGold();
+        this.goldAmountText.text = $"{goldAmount} Gold";
+        
+        if (Input.GetMouseButtonDown(0))
+        {
+            AddGold();
+        }
+          
     }
 
     void AddGold()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            this.goldAmount += addFiveGold;
-        }
+        this.goldAmount += addFiveGold;
     }
 
 }

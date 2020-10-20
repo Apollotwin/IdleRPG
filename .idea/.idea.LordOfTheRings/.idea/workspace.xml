@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df37353c-5b95-4851-bc1b-b5a21260437b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,8 +32,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gold.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gold.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -21,8 +42,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGoldOnClick.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGold.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gold.cs" />
       </list>
     </option>
   </component>
@@ -32,9 +53,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,20 +100,54 @@
       <workItem from="1603184922967" duration="895000" />
       <workItem from="1603185854471" duration="2476000" />
       <workItem from="1603194671886" duration="444000" />
-      <workItem from="1603195277666" duration="4442000" />
+      <workItem from="1603195277666" duration="7497000" />
+      <workItem from="1603202899392" duration="594000" />
+      <workItem from="1603203655193" duration="31000" />
+      <workItem from="1603203728293" duration="61000" />
+      <workItem from="1603204251307" duration="93000" />
+      <workItem from="1603205650222" duration="15000" />
+      <workItem from="1603206741418" duration="11000" />
+      <workItem from="1603206898705" duration="9000" />
+      <workItem from="1603206928148" duration="8000" />
+      <workItem from="1603207011796" duration="7000" />
+      <workItem from="1603207166373" duration="42000" />
+      <workItem from="1603207245288" duration="30000" />
+      <workItem from="1603207303874" duration="2168000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="259" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603185175786">
+    <state x="360" y="448" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603203367200">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="491" y="259" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603185175786" />
+    <state x="360" y="448" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603203367200" />
+    <state x="665" y="405" key="SettingsEditor" timestamp="1603207641928">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="665" y="405" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1603207641928" />
+    <state x="698" y="329" key="run.anything.popup" timestamp="1603201808552">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="698" y="329" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603201808552" />
   </component>
 </project>
