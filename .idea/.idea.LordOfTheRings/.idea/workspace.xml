@@ -10,14 +10,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gold.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UIGoldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGoldOnClick.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGold.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gold.cs" />
       </list>
     </option>
   </component>
@@ -50,6 +54,7 @@
       <workItem from="1603183935370" duration="428000" />
       <workItem from="1603184384007" duration="510000" />
       <workItem from="1603184922967" duration="895000" />
+      <workItem from="1603185854471" duration="2476000" />
     </task>
     <servers />
   </component>
