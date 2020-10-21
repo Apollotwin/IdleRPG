@@ -13,12 +13,12 @@ public class PlayerScript : MonoBehaviour
     public void Start()
     {
         _goldScript = FindObjectOfType<GoldScript>();
-        //goldAmount = PlayerPrefs.GetInt("Gold", 0);
+        goldAmount = PlayerPrefs.GetInt("Gold", 0);
     }
 
     public void OnDestroy()
     {
-        //PlayerPrefs.SetInt("Gold", goldAmount);
+        PlayerPrefs.SetInt("Gold", goldAmount);
     }
 
     private void Update()
