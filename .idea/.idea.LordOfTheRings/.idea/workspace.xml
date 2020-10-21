@@ -33,7 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gold.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmallGoldPruducer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,8 +42,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGoldOnClick.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddGold.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetGold.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gold.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoldScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SmallGoldPruducer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +118,9 @@
       <workItem from="1603207166373" duration="42000" />
       <workItem from="1603207245288" duration="30000" />
       <workItem from="1603207303874" duration="3470000" />
-      <workItem from="1603264387675" duration="1501000" />
+      <workItem from="1603264387675" duration="2848000" />
+      <workItem from="1603268528506" duration="4472000" />
+      <workItem from="1603275365475" duration="4165000" />
     </task>
     <servers />
   </component>
