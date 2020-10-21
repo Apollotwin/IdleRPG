@@ -14,8 +14,7 @@ public class GoldScript : MonoBehaviour
     {
         player = FindObjectOfType<PlayerScript>();
     }
-
-
+    
     public int AddOneGold()
     {
         player.GoldAmount += goldValue;
