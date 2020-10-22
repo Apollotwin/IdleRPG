@@ -6,13 +6,11 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     private int goldAmount;
-    private List<int> goldProducers = new List<int>();
-    private GoldScript _goldScript;
-    
+    public GoldProducer goldProducer;
     
     public void Start()
     {
-        _goldScript = FindObjectOfType<GoldScript>();
+        goldProducer = FindObjectOfType<GoldProducer>();
         goldAmount = PlayerPrefs.GetInt("Gold", 0);
     }
 
@@ -25,7 +23,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            _goldScript.AddOneGold();
+            goldAmount++;
         }
 
     }
@@ -35,4 +33,18 @@ public class PlayerScript : MonoBehaviour
         get => goldAmount;
         set => goldAmount = value;
     }
+
+    public void BuyGoldProducer()
+    {
+        if (goldAmount >= goldProducer.GoldProducerCost)
+        {
+            Instantiate(goldProducer);
+            goldAmount -= goldProducer.GoldProducerCost;
+        }
+        else
+        {
+            Debug.Log("Insufficiant gold");
+        }
+    }
+    
 }

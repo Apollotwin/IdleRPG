@@ -7,10 +7,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="GoldPruducer.cs" t="Include" />
-          <e p="GoldScript.cs" t="Include" />
+          <e p="GoldProducer.cs" t="Include" />
           <e p="HUD.cs" t="Include" />
           <e p="PlayerScript.cs" t="Include" />
+          <e p="TextPosition.cs" t="Include" />
         </e>
       </e>
       <e p="LordOfTheRings.sln" t="IncludeFlat" />
